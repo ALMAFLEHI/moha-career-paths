@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering Career Paths | Mohammed Almaflehi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo logo-symbol-integration">
+                <span class="logo-english">Moha</span>
+                <span class="logo-separator">|</span>
+                <span class="logo-arabic">موها</span>
+            </a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" data-i18n="nav.home">Home</a>
+                <a href="#paths" data-i18n="nav.paths">Career Paths</a>
+                <a href="#resources" data-i18n="nav.resources">Resources</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ar">AR</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">Software Engineering Roadmap</h1>
+                <p data-i18n="hero.subtitle">6 Proven Paths to Launch Your Career with Complete Resources</p>
+                <a href="#paths" class="cta-button" data-i18n="hero.button">Explore Paths <i class="fas fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Career Paths Section -->
+        <section id="paths">
+            <div class="section-header">
+                <h2 data-i18n="paths.title">6 Proven Career Paths</h2>
+                <p data-i18n="paths.subtitle">Each path includes detailed information, tools, frameworks, and learning resources</p>
+            </div>
+            
+            <!-- Path Navigation -->
+            <div class="paths-nav">
+                <button class="path-nav-btn active" data-path="data-science">
+                    <i class="fas fa-chart-line"></i> <span data-i18n="paths.data-science">Data Science</span>
+                </button>
+                <button class="path-nav-btn" data-path="frontend">
+                    <i class="fas fa-paint-brush"></i> <span data-i18n="paths.frontend">Frontend</span>
+                </button>
+                <button class="path-nav-btn" data-path="backend">
+                    <i class="fas fa-server"></i> <span data-i18n="paths.backend">Backend</span>
+                </button>
+                <button class="path-nav-btn" data-path="mobile">
+                    <i class="fas fa-mobile-alt"></i> <span data-i18n="paths.mobile">Mobile</span>
+                </button>
+                <button class="path-nav-btn" data-path="cloud">
+                    <i class="fas fa-cloud"></i> <span data-i18n="paths.cloud">Cloud</span>
+                </button>
+                <button class="path-nav-btn" data-path="ui-ux">
+                    <i class="fas fa-palette"></i> <span data-i18n="paths.ui-ux">UI/UX</span>
+                </button>
+            </div>
+            
+            <!-- Paths Container -->
+            <div class="paths-container">
+                <!-- Data Science Path -->
+                <div class="path-content active" id="data-science-path">
+                    <div class="path-header">
+                        <i class="fas fa-chart-line path-icon"></i>
+                        <h2 class="path-title" data-i18n="data-science.title">Data Science & Machine Learning</h2>
+                    </div>
+                    <p class="path-description" data-i18n="data-science.description">
+                        Ideal for problem-solvers who love working with data, trends, and intelligent systems.
+                    </p>
+                    
+                    <div class="path-details">
+                        <div class="detail-card">
+                            <h3><i class="fas fa-code"></i> <span data-i18n="card.languages">Languages</span></h3>
+                            <ul>
+                                <li><a href="https://www.python.org/about/gettingstarted/" target="_blank">Python</a></li>
+                                <li><a href="https://www.r-project.org/" target="_blank">R</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-cubes"></i> <span data-i18n="card.frameworks">Frameworks</span></h3>
+                            <ul>
+                                <li><a href="https://scikit-learn.org/stable/" target="_blank">scikit-learn</a>: <span data-i18n="data-science.frameworks.scikit">Python ML library for simple models</span></li>
+                                <li><a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>: <span data-i18n="data-science.frameworks.tensorflow">Google's ML framework for deep learning</span></li>
+                                <li><a href="https://pytorch.org/" target="_blank">PyTorch</a>: <span data-i18n="data-science.frameworks.pytorch">Facebook's dynamic deep learning framework</span></li>
+                                <li><a href="https://keras.io/" target="_blank">Keras</a>: <span data-i18n="data-science.frameworks.keras">High-level API for building neural networks</span></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-tools"></i> <span data-i18n="card.tools">Core Tools</span></h3>
+                            <ul>
+                                <li><a href="https://jupyter.org/" target="_blank">Jupyter Notebooks</a>: <span data-i18n="data-science.tools.jupyter">Web-based interactive computing environment</span></li>
+                                <li><a href="https://colab.research.google.com/" target="_blank">Google Colab</a>: <span data-i18n="data-science.tools.colab">Free cloud Jupyter notebook service</span></li>
+                                <li><a href="https://pandas.pydata.org/" target="_blank">pandas</a>: <span data-i18n="data-science.tools.pandas">Data manipulation and analysis library</span></li>
+                                <li><a href="https://numpy.org/" target="_blank">NumPy</a>: <span data-i18n="data-science.tools.numpy">Fundamental package for numerical computations</span></li>
+                                <li><a href="https://opencv.org/" target="_blank">OpenCV</a>: <span data-i18n="data-science.tools.opencv">Library for real-time computer vision</span></li>
+                                <li><a href="https://www.nltk.org/" target="_blank">NLTK</a>: <span data-i18n="data-science.tools.nltk">Toolkit for working with Natural Language</span></li>
+                                <li><a href="https://spacy.io/" target="_blank">spaCy</a>: <span data-i18n="data-science.tools.spacy">Industrial-strength NLP library in Python</span></li>
+                                <li>AWS, GCP, Azure: <span data-i18n="data-science.tools.cloud">Major cloud platforms for scalable computing</span></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="card.fundamentals">Fundamental Topics</span></h3>
+                            <ul>
+                                <li><a href="https://www.w3schools.com/python/" target="_blank" data-i18n="data-science.fundamentals.python">Python programming basics</a></li>
+                                <li><a href="https://www.datacamp.com/tutorial/tutorial-data-cleaning-tutorial" target="_blank" data-i18n="data-science.fundamentals.cleaning">Data cleaning and transformation</a></li>
+                                <li><a href="https://www.khanacademy.org/math/statistics-probability" target="_blank" data-i18n="data-science.fundamentals.stats">Descriptive statistics and probability</a></li>
+                                <li><a href="https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/" target="_blank" data-i18n="data-science.fundamentals.algorithms">Machine learning algorithms (regression, k-NN)</a></li>
+                                <li><a href="https://hometutoracademy.medium.com/visualizing-data-with-matplotlib-seaborn-and-plotly-in-python-8215363324e6" target="_blank" data-i18n="data-science.fundamentals.visualization">Data visualization (Matplotlib, Plotly, Seaborn)</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-rocket"></i> <span data-i18n="card.advanced">Advanced Topics</span></h3>
+                            <ul>
+                                <li><a href="https://medium.com/@CerboAI/cerboais-guide-understanding-cnn-rnn-gan-transformer-and-other-architectures-2ded10988eee" target="_blank" data-i18n="data-science.advanced.deep-learning">Deep learning (CNNs, RNNs, GANs)</a></li>
+                                <li><a href="https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/" target="_blank" data-i18n="data-science.advanced.nlp">NLP (BERT, GPT, embeddings)</a></li>
+                                <li><a href="https://www.deepchecks.com/f1-score-accuracy-roc-auc-and-pr-auc-metrics-for-models/" target="_blank" data-i18n="data-science.advanced.evaluation">Model evaluation (ROC, F1, precision/recall)</a></li>
+                                <li><a href="https://gordicaleksa.medium.com/how-to-get-started-with-reinforcement-learning-rl-4922fafeaf8c" target="_blank" data-i18n="data-science.advanced.reinforcement">Reinforcement learning</a></li>
+                                <li><a href="https://www.datacamp.com/tutorial/tutorial-machine-learning-pipelines-mlops-deployment" target="_blank" data-i18n="data-science.advanced.mlops">MLOps, deployment pipelines</a></li>
+                                <li><a href="https://www.datacamp.com/tutorial/fine-tuning-large-language-models" target="_blank" data-i18n="data-science.advanced.llm">LLM applications and fine-tuning</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frontend Path -->
+                <div class="path-content" id="frontend-path">
+                    <div class="path-header">
+                        <i class="fas fa-paint-brush path-icon"></i>
+                        <h2 class="path-title" data-i18n="frontend.title">Frontend Development</h2>
+                    </div>
+                    <p class="path-description" data-i18n="frontend.description">
+                        For engineers interested in building beautiful and interactive web interfaces.
+                    </p>
+                    
+                    <div class="path-details">
+                        <div class="detail-card">
+                            <h3><i class="fas fa-code"></i> <span data-i18n="card.languages">Languages</span></h3>
+                            <ul>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a></li>
+                                <li><a href="https://www.typescriptlang.org/docs/" target="_blank">TypeScript</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-cubes"></i> <span data-i18n="card.frameworks">Frameworks</span></h3>
+                            <ul>
+                                <li><a href="https://react.dev/" target="_blank">React</a>: <span data-i18n="frontend.frameworks.react">JavaScript library for building user interfaces</span></li>
+                                <li><a href="https://vuejs.org/guide/introduction" target="_blank">Vue.js</a>: <span data-i18n="frontend.frameworks.vue">Progressive framework for building user interfaces</span></li>
+                                <li><a href="https://angular.dev/overview" target="_blank">Angular</a>: <span data-i18n="frontend.frameworks.angular">Structured framework for building scalable web applications</span></li>
+                                <li><a href="https://v2.tailwindcss.com/docs" target="_blank">Tailwind CSS</a>: <span data-i18n="frontend.frameworks.tailwind">Utility-first CSS framework for rapid UI development</span></li>
+                                <li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" target="_blank">Bootstrap</a>: <span data-i18n="frontend.frameworks.bootstrap">Popular framework for building responsive, mobile-first sites</span></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-tools"></i> <span data-i18n="card.tools">Core Tools</span></h3>
+                            <ul>
+                                <li><a href="https://git-scm.com/doc" target="_blank">Git</a>: Distributed version control system</li>
+                                <li><a href="https://docs.github.com/" target="_blank">GitHub</a>: Platform for hosting and collaborating on code</li>
+                                <li><a href="https://developer.chrome.com/docs/devtools" target="_blank">Chrome DevTools</a>: Set of web developer tools built into Google Chrome</li>
+                                <li><a href="https://devdocs.io/webpack~5/" target="_blank">Webpack</a>: Module bundler for JavaScript applications</li>
+                                <li><a href="https://babeljs.io/docs/" target="_blank">Babel</a>: JavaScript compiler for converting ECMAScript 2015+ code</li>
+                                <li><a href="https://vite.dev/" target="_blank">Vite</a>: Blazing fast frontend build tool</li>
+                                <li><a href="https://docs.netlify.com/" target="_blank">Netlify</a>: Platform for deploying and hosting web projects</li>
+                                <li><a href="https://vercel.com/docs" target="_blank">Vercel</a>: Platform for deploying and hosting web projects</li>
+                                <li><a href="https://docs.github.com/actions" target="_blank">GitHub Actions</a>: Automate workflows directly in your GitHub repository</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="card.fundamentals">Fundamental Topics</span></h3>
+                            <ul>
+                                <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">HTML/CSS basics</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank">JavaScript and DOM manipulation</a></li>
+                                <li><a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">Responsive design & Flexbox/Grid</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">API integration (fetch, axios)</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction" target="_blank">Intro to frontend frameworks</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-rocket"></i> <span data-i18n="card.advanced">Advanced Topics</span></h3>
+                            <ul>
+                                <li><a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" target="_blank">TypeScript usage</a></li>
+                                <li><a href="https://redux.js.org/introduction/getting-started" target="_blank">State management (Redux, Context API, Pinia)</a></li>
+                                <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">Accessibility (WCAG, ARIA)</a></li>
+                                <li><a href="https://jestjs.io/docs/getting-started" target="_blank">Testing (Jest, Cypress, Playwright)</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Performance" target="_blank">Performance tuning</a></li>
+                                <li><a href="https://nextjs.org/docs/basic-features/pages#server-side-rendering" target="_blank">Server-side rendering (Next.js, Astro)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Path -->
+                <div class="path-content" id="backend-path">
+                    <div class="path-header">
+                        <i class="fas fa-server path-icon"></i>
+                        <h2 class="path-title" data-i18n="backend.title">Backend Development</h2>
+                    </div>
+                    <p class="path-description" data-i18n="backend.description">
+                        For engineers who enjoy building APIs, handling data, and architecting systems.
+                    </p>
+                    
+                    <div class="path-details">
+                        <div class="detail-card">
+                            <h3><i class="fas fa-code"></i> <span data-i18n="card.languages">Languages</span></h3>
+                            <ul>
+                                <li><a href="https://nodejs.org/en/docs/" target="_blank">Node.js</a></li>
+                                <li><a href="https://www.python.org/about/gettingstarted/" target="_blank">Python</a></li>
+                                <li><a href="https://go.dev/doc/" target="_blank">Go</a></li>
+                                <li><a href="https://www.rust-lang.org/learn" target="_blank">Rust</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-cubes"></i> <span data-i18n="card.frameworks">Frameworks</span></h3>
+                            <ul>
+                                <li><strong>Node.js:</strong></li>
+                                <li><a href="https://expressjs.com/" target="_blank">Express.js</a>: <span data-i18n="backend.frameworks.express">Minimalist web framework for Node.js</span></li>
+                                <li><a href="https://www.fastify.io/docs/latest/" target="_blank">Fastify</a>: Fast and low-overhead web framework</li>
+                                <li><a href="https://docs.nestjs.com/" target="_blank">NestJS</a>: Progressive Node.js framework</li>
+                                <li><a href="https://koajs.com/" target="_blank">Koa.js</a>: Next generation web framework</li>
+                                <li><a href="https://hapi.dev/" target="_blank">Hapi.js</a>: Rich framework for building applications</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-tools"></i> <span data-i18n="card.tools">Core Tools</span></h3>
+                            <ul>
+                                <li><a href="https://www.postgresql.org/docs/" target="_blank">PostgreSQL</a>: Advanced open-source relational database</li>
+                                <li><a href="https://dev.mysql.com/doc/" target="_blank">MySQL</a>: Popular open-source relational database</li>
+                                <li><a href="https://www.mongodb.com/docs/" target="_blank">MongoDB</a>: NoSQL document-oriented database</li>
+                                <li><a href="https://redis.io/docs/" target="_blank">Redis</a>: In-memory data structure store</li>
+                                <li><a href="https://www.rabbitmq.com/documentation.html" target="_blank">RabbitMQ</a>: Open-source message-broker software</li>
+                                <li><a href="https://docs.docker.com/" target="_blank">Docker</a>: Platform for containerized applications</li>
+                                <li><a href="https://kubernetes.io/docs/home/" target="_blank">Kubernetes</a>: Container orchestration system</li>
+                                <li><a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions</a>: Automate workflows</li>
+                                <li><a href="https://www.jenkins.io/doc/" target="_blank">Jenkins</a>: Open-source automation server</li>
+                                <li><a href="https://prometheus.io/docs/introduction/overview/" target="_blank">Prometheus</a>: Monitoring and alerting toolkit</li>
+                                <li><a href="https://grafana.com/docs/" target="_blank">Grafana</a>: Platform for monitoring and observability</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="card.fundamentals">Fundamental Topics</span></h3>
+                            <ul>
+                                <li><a href="https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/" target="_blank">Building RESTful APIs</a></li>
+                                <li><a href="https://www.geeksforgeeks.org/difference-between-sql-and-nosql/" target="_blank">SQL and NoSQL databases</a></li>
+                                <li><a href="https://auth0.com/docs/secure/tokens/json-web-tokens" target="_blank">Authentication (JWT, OAuth2)</a></li>
+                                <li><a href="https://www.codecademy.com/articles/what-is-crud" target="_blank">CRUD operations</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/MVC" target="_blank">MVC architecture</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-rocket"></i> <span data-i18n="card.advanced">Advanced Topics</span></h3>
+                            <ul>
+                                <li><a href="https://graphql.org/learn/" target="_blank">GraphQL</a> and <a href="https://grpc.io/docs/" target="_blank">gRPC</a></li>
+                                <li><a href="https://redis.io/docs/about/" target="_blank">Caching and queuing</a></li>
+                                <li><a href="https://microservices.io/" target="_blank">Microservices architecture</a></li>
+                                <li><a href="https://middleware.io/blog/what-is-log-monitoring/" target="_blank">Logging and monitoring</a></li>
+                                <li><a href="https://owasp.org/www-project-api-security/" target="_blank">Security and rate-limiting</a></li>
+                                <li><a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/deployment-strategies.html" target="_blank">Deployment strategies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile Path -->
+                <div class="path-content" id="mobile-path">
+                    <div class="path-header">
+                        <i class="fas fa-mobile-alt path-icon"></i>
+                        <h2 class="path-title" data-i18n="mobile.title">Mobile App Development</h2>
+                    </div>
+                    <p class="path-description" data-i18n="mobile.description">
+                        For engineers who want to create mobile apps for iOS and Android platforms.
+                    </p>
+                    
+                    <div class="path-details">
+                        <div class="detail-card">
+                            <h3><i class="fas fa-code"></i> <span data-i18n="card.languages">Languages</span></h3>
+                            <ul>
+                                <li><a href="https://developer.apple.com/documentation/swift/" target="_blank">Swift</a>: Apple's language for iOS</li>
+                                <li><a href="https://kotlinlang.org/docs/home.html" target="_blank">Kotlin</a>: Official language for Android</li>
+                                <li><a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Java</a>: Traditional language for Android</li>
+                                <li><a href="https://dart.dev/docs" target="_blank">Dart</a>: Language used with Flutter</li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>: For cross-platform development</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-cubes"></i> <span data-i18n="card.frameworks">Frameworks</span></h3>
+                            <ul>
+                                <li><strong>Cross-Platform:</strong></li>
+                                <li><a href="https://reactnative.dev/" target="_blank">React Native</a>: <span data-i18n="mobile.frameworks.reactnative">JavaScript framework for native apps</span></li>
+                                <li><a href="https://flutter.dev/" target="_blank">Flutter</a>: <span data-i18n="mobile.frameworks.flutter">Google's UI toolkit for mobile</span></li>
+                                <li><strong>Android:</strong></li>
+                                <li><a href="https://developer.android.com/studio" target="_blank">Android SDK</a>: <span data-i18n="mobile.frameworks.android">Official SDK for Android</span></li>
+                                <li><strong>iOS:</strong></li>
+                                <li><a href="https://developer.apple.com/documentation/swiftui/" target="_blank">SwiftUI</a>: Framework for Apple platforms</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-tools"></i> <span data-i18n="card.tools">Core Tools</span></h3>
+                            <ul>
+                                <li><a href="https://developer.apple.com/xcode/" target="_blank">Xcode</a>: Apple's IDE for macOS</li>
+                                <li><a href="https://developer.android.com/studio" target="_blank">Android Studio</a>: Official IDE for Android</li>
+                                <li><a href="https://firebase.google.com/docs" target="_blank">Firebase</a>: Google's mobile development platform</li>
+                                <li><a href="https://docs.expo.dev/" target="_blank">Expo</a>: Platform for universal native apps</li>
+                                <li><a href="https://developer.apple.com/testflight/" target="_blank">TestFlight</a>: Apple's beta testing service</li>
+                                <li><a href="https://developer.android.com/distribute/console" target="_blank">Google Play Console</a>: Platform for Android apps</li>
+                                <li><a href="https://help.figma.com/hc/en-us" target="_blank">Figma</a>: Collaborative design tool</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="card.fundamentals">Fundamental Topics</span></h3>
+                            <ul>
+                                <li><strong>Android:</strong></li>
+                                <li><a href="https://developer.android.com/guide/navigation" target="_blank">App Architecture & Navigation</a></li>
+                                <li><a href="https://developer.android.com/guide/topics/ui/declaring-layout" target="_blank">UI Components & Layouts</a></li>
+                                <li><a href="https://developer.android.com/training/volley" target="_blank">API Integration</a></li>
+                                <li><a href="https://www.geeksforgeeks.org/implement-form-validation-error-to-edittext-in-android/" target="_blank">Form Handling & Validation</a></li>
+                                <li><a href="https://developer.android.com/studio/publish" target="_blank">Publishing to Google Play Store</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-rocket"></i> <span data-i18n="card.advanced">Advanced Topics</span></h3>
+                            <ul>
+                                <li><strong>Android:</strong></li>
+                                <li><a href="https://developer.android.com/training/data-storage/room" target="_blank">Offline Storage (SQLite, Room)</a></li>
+                                <li><a href="https://developer.android.com/training/notify-user" target="_blank">Push Notifications & Device APIs</a></li>
+                                <li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel" target="_blank">State Management (ViewModel, LiveData)</a></li>
+                                <li><a href="https://developer.android.com/topic/performance" target="_blank">Performance Optimization</a></li>
+                                <li><a href="https://developer.android.com/training/testing" target="_blank">Automated Testing (UI/Unit/Integration)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cloud Path -->
+                <div class="path-content" id="cloud-path">
+                    <div class="path-header">
+                        <i class="fas fa-cloud path-icon"></i>
+                        <h2 class="path-title" data-i18n="cloud.title">Cloud Engineering</h2>
+                    </div>
+                    <p class="path-description" data-i18n="cloud.description">
+                        For engineers who love automation, system design, scaling systems, and managing infrastructure.
+                    </p>
+                    
+                    <div class="path-details">
+                        <div class="detail-card">
+                            <h3><i class="fas fa-code"></i> <span data-i18n="card.languages">Languages</span></h3>
+                            <ul>
+                                <li><a href="https://www.python.org/" target="_blank">Python</a>: Automate cloud workflows</li>
+                                <li><a href="https://go.dev/" target="_blank">Go</a>: Fast, scalable cloud-native tools</li>
+                                <li><strong>Bash</strong>: Scripting infrastructure tasks</li>
+                                <li><a href="https://yaml.org/" target="_blank">YAML</a>: Infrastructure and CI/CD configurations</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-cubes"></i> <span data-i18n="card.frameworks">Frameworks</span></h3>
+                            <ul>
+                                <li><a href="https://www.terraform.io/" target="_blank">Terraform</a>: <span data-i18n="cloud.frameworks.terraform">Infrastructure as Code tool</span></li>
+                                <li><a href="https://aws.amazon.com/cloudformation/" target="_blank">CloudFormation</a>: AWS infrastructure templates</li>
+                                <li><a href="https://docs.aws.amazon.com/cdk/index.html" target="_blank">AWS CDK</a>: Code-first approach to AWS</li>
+                                <li><a href="https://www.pulumi.com/" target="_blank">Pulumi</a>: Modern infrastructure as code</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-tools"></i> <span data-i18n="card.tools">Core Tools</span></h3>
+                            <ul>
+                                <li><a href="https://aws.amazon.com/" target="_blank">AWS</a>: Market-leading cloud platform</li>
+                                <li><a href="https://cloud.google.com/" target="_blank">GCP</a>: Google Cloud Platform</li>
+                                <li><a href="https://azure.microsoft.com/" target="_blank">Azure</a>: Microsoft's cloud platform</li>
+                                <li><a href="https://www.docker.com/" target="_blank">Docker</a>: Container platform</li>
+                                <li><a href="https://kubernetes.io/" target="_blank">Kubernetes</a>: Container orchestration</li>
+                                <li><a href="https://github.com/features/actions" target="_blank">GitHub Actions</a>: CI/CD and automation</li>
+                                <li><a href="https://www.jenkins.io/" target="_blank">Jenkins</a>: Open-source automation server</li>
+                                <li><a href="https://aws.amazon.com/codepipeline/" target="_blank">CodePipeline</a>: AWS CI/CD service</li>
+                                <li><a href="https://prometheus.io/" target="_blank">Prometheus</a>: Monitoring system</li>
+                                <li><a href="https://www.datadoghq.com/" target="_blank">Datadog</a>: Monitoring and security platform</li>
+                                <li><a href="https://docs.aws.amazon.com/cloudwatch/" target="_blank">CloudWatch</a>: AWS monitoring service</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="card.fundamentals">Fundamental Topics</span></h3>
+                            <ul>
+                                <li><a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/cloud-computing-architecture" target="_blank">Cloud architecture basics</a></li>
+                                <li><a href="https://aws.amazon.com/free/compute/" target="_blank">Compute and storage services</a></li>
+                                <li><a href="https://aws.amazon.com/iam/" target="_blank">IAM and networking</a></li>
+                                <li><a href="https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/" target="_blank">Bash scripting</a></li>
+                                <li><a href="https://middleware.io/blog/what-is-log-monitoring/" target="_blank">What is monitoring</a></li>
+                                <li><a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/implementing-logging-monitoring-cloudwatch/welcome.html" target="_blank">Monitoring and logging in AWS</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-rocket"></i> <span data-i18n="card.advanced">Advanced Topics</span></h3>
+                            <ul>
+                                <li><a href="https://www.freecodecamp.org/news/tag/infrastructure-as-code/" target="_blank">Infrastructure as Code (IaC)</a></li>
+                                <li><a href="https://kubernetes.io/docs/tutorials/" target="_blank">Kubernetes orchestration</a></li>
+                                <li><a href="https://www.backblaze.com/blog/multi-cloud-strategy-architecture-guide/" target="_blank">Multi-cloud architecture</a></li>
+                                <li><a href="https://scytale.ai/resources/free-soc-2-compliance-course/" target="_blank">Security compliance (SOC2, GDPR)</a></li>
+                                <li><a href="https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-cost-optimization.html" target="_blank">Cost optimization strategies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- UI/UX Path -->
+                <div class="path-content" id="ui-ux-path">
+                    <div class="path-header">
+                        <i class="fas fa-palette path-icon"></i>
+                        <h2 class="path-title" data-i18n="ui-ux.title">UI/UX Designer</h2>
+                    </div>
+                    <p class="path-description" data-i18n="ui-ux.description">
+                        For creative individuals passionate about crafting intuitive and engaging digital experiences.
+                    </p>
+                    
+                    <div class="path-details">
+                        <div class="detail-card">
+                            <h3><i class="fas fa-code"></i> <span>Languages (Optional)</span></h3>
+                            <ul>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-cubes"></i> <span>Frameworks</span></h3>
+                            <ul>
+                                <li>None required, but understanding of design systems helps</li>
+                                <li><a href="https://m3.material.io/" target="_blank">Material Design</a></li>
+                                <li><a href="https://tailwindcss.com/" target="_blank">Tailwind UI</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-tools"></i> <span>Core Tools</span></h3>
+                            <ul>
+                                <li><a href="https://www.figma.com/" target="_blank">Figma</a>: <span data-i18n="ui-ux.frameworks.figma">Collaborative interface design tool</span></li>
+                                <li><a href="https://www.sketch.com/" target="_blank">Sketch</a>: Vector-based design tool for macOS</li>
+                                <li><a href="https://www.invisionapp.com/" target="_blank">InVision</a>: <span data-i18n="ui-ux.frameworks.invision">Digital product design platform</span></li>
+                                <li><a href="https://zeplin.io/" target="_blank">Zeplin</a>: Collaboration tool for designers</li>
+                                <li><a href="https://miro.com/" target="_blank">Miro</a>: Online collaborative whiteboard</li>
+                                <li><a href="https://www.notion.so/" target="_blank">Notion</a>: All-in-one workspace</li>
+                                <li><a href="https://www.hotjar.com/" target="_blank">Hotjar</a>: Behavior analytics tool</li>
+                                <li><a href="https://mixpanel.com/" target="_blank">Mixpanel</a>: Product analytics tool</li>
+                                <li><a href="https://support.google.com/analytics/answer/10089681?hl=en&ref_topic=14089939&sjid=14017786734973080429-EU" target="_blank">Google Analytics 4 (GA4)</a>: Web and app analytics</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-graduation-cap"></i> <span>Fundamental Topics</span></h3>
+                            <ul>
+                                <li><a href="https://www.codecademy.com/learn/intro-to-ui-ux" target="_blank">Introduction to UI/UX Design</a></li>
+                                <li><a href="https://www.open.edu/openlearn/science-maths-technology/design-innovation/design-thinking/content-section-0" target="_blank">Design Thinking</a></li>
+                                <li><a href="https://www.coursera.org/learn/wireframes-low-fidelity-prototypes" target="_blank">Wireframing and Prototyping</a></li>
+                                <li><a href="https://www.looppanel.com/blog/free-ux-research-courses" target="_blank">User Research Methods</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=2QTHs7QSR9o" target="_blank">Typography and Color Theory</a></li>
+                                <li><a href="https://www.w3.org/TR/WCAG21/" target="_blank">Accessibility best practices (WCAG)</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h3><i class="fas fa-rocket"></i> <span>Advanced Topics</span></h3>
+                            <ul>
+                                <li><a href="https://help.figma.com/hc/en-us/sections/14548397990423-Introduction-to-design-systems" target="_blank">Design Systems</a></li>
+                                <li><a href="https://www.codecademy.com/learn/learn-interaction-design" target="_blank">Interaction Design</a></li>
+                                <li><a href="https://www.coursera.org/learn/foundations-of-usability-testing" target="_blank">Usability Testing</a></li>
+                                <li><a href="https://web.dev/learn/design" target="_blank">Responsive Design</a></li>
+                                <li><a href="https://www.w3.org/WAI/courses/foundations-course/" target="_blank">Accessibility in Design</a></li>
+                                <li><a href="https://www.interaction-design.org/literature/topics/design-handoffs?srsltid=AfmBOorcIFo1u2Fdduy7ZCGU5RTmFtu_x6iWgcuNc1axfJ3XecWtC6UY" target="_blank">Developer collaboration and design handoffs</a></li>
+                                <li><a href="https://dashdevs.com/blog/data-driven-design/" target="_blank">Data-driven design with analytics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Resources Section -->
+        <section id="resources" class="resources-section">
+            <div class="section-header">
+                <h2 data-i18n="resources.title">Learning Resources</h2>
+                <p data-i18n="resources.subtitle">Curated resources to help you master your chosen career path</p>
+            </div>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <i class="fas fa-book resource-icon"></i>
+                    <h3>FreeCodeCamp</h3>
+                    <p data-i18n="resources.freecodecamp">Free online coding courses and projects</p>
+                    <a href="https://www.freecodecamp.org/" target="_blank" class="resource-link" data-i18n="resources.explore">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="resource-card">
+                    <i class="fas fa-laptop-code resource-icon"></i>
+                    <h3>MDN Web Docs</h3>
+                    <p data-i18n="resources.mdn">Comprehensive documentation for web technologies</p>
+                    <a href="https://developer.mozilla.org/" target="_blank" class="resource-link" data-i18n="resources.explore">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="resource-card">
+                    <i class="fas fa-graduation-cap resource-icon"></i>
+                    <h3>Coursera</h3>
+                    <p data-i18n="resources.coursera">Online courses from top universities and companies</p>
+                    <a href="https://www.coursera.org/" target="_blank" class="resource-link" data-i18n="resources.explore">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="resource-card">
+                    <i class="fas fa-video resource-icon"></i>
+                    <h3>YouTube Learning</h3>
+                    <p data-i18n="resources.youtube">Free tutorials and courses from industry experts</p>
+                    <a href="https://www.youtube.com/learning" target="_blank" class="resource-link" data-i18n="resources.explore">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about">
+            <div class="section-header">
+                <h2 data-i18n="about.title">About This Guide</h2>
+                <p data-i18n="about.subtitle">Your roadmap to a successful career in software engineering</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.quote">"If you fail to plan, you are planning to fail." — Benjamin Franklin</p>
+                    <p data-i18n="about.description1">This comprehensive guide was created to help aspiring software engineers navigate the complex landscape of technology careers. With so many paths to choose from, it can be overwhelming to know where to start.</p>
+                    <p data-i18n="about.description2">Each path has been carefully researched and includes:</p>
+                    <ul>
+                        <li data-i18n="about.list1">Essential programming languages and frameworks</li>
+                        <li data-i18n="about.list2">Core tools and technologies</li>
+                        <li data-i18n="about.list3">Fundamental concepts to master</li>
+                        <li data-i18n="about.list4">Advanced topics for career growth</li>
+                        <li data-i18n="about.list5">Curated learning resources</li>
+                    </ul>
+                    <p data-i18n="about.description3">Whether you're just starting your journey or looking to switch specializations, this guide provides a clear roadmap to success in the ever-evolving field of software engineering.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>6</h3>
+                        <p data-i18n="about.stat1">Career Paths</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>50+</h3>
+                        <p data-i18n="about.stat2">Technologies</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100+</h3>
+                        <p data-i18n="about.stat3">Resources</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>∞</h3>
+                        <p data-i18n="about.stat4">Possibilities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Mohammed Almaflehi</h3>
+                    <p data-i18n="footer.description">Software Engineering Student & Aspiring Full-Stack Developer</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/almaflehi.dev/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohammed-al-maflehi-926a28330/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.tiktok.com/@almaflehi0" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@AlmaflehiCode" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://github.com/ALMAFLEHI" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="footer.quicklinks">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#paths" data-i18n="nav.paths">Career Paths</a></li>
+                        <li><a href="#resources" data-i18n="nav.resources">Resources</a></li>
+                        <li><a href="#about" data-i18n="nav.about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="footer.careerpaths">Career Paths</h3>
+                    <ul>
+                        <li><a href="#data-science-path" data-i18n="paths.data-science">Data Science</a></li>
+                        <li><a href="#frontend-path" data-i18n="paths.frontend">Frontend</a></li>
+                        <li><a href="#backend-path" data-i18n="paths.backend">Backend</a></li>
+                        <li><a href="#mobile-path" data-i18n="paths.mobile">Mobile</a></li>
+                        <li><a href="#cloud-path" data-i18n="paths.cloud">Cloud</a></li>
+                        <li><a href="#ui-ux-path" data-i18n="paths.ui-ux">UI/UX</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="footer.resources">Resources</h3>
+                    <ul>
+                        <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+                        <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                        <li><a href="https://www.coursera.org/" target="_blank">Coursera</a></li>
+                        <li><a href="https://www.youtube.com/learning" target="_blank">YouTube Learning</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">© 2024 Mohammed Almaflehi. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <!-- Particle.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
