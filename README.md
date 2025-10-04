@@ -129,7 +129,7 @@ Steps:
 ## 🔗 Connect with Me
 [![GitHub](https://img.shields.io/badge/GitHub-ALMAFLEHI-black)](https://github.com/ALMAFLEHI)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed_Almaflehi-blue)](https://www.linkedin.com)  
-[![Instagram](https://img.shields.io/badge/Instagram-@almaflehi.dev-pink)](https://instagram.com/almaflehi.dev)  
+[![Instagram](https://img.shields.io/badge/Instagram-@meetmoha0-pink)](https://instagram.com/meetmoha0)  
 
 ---
 
