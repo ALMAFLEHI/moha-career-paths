@@ -1,6 +1,6 @@
 # 🚀 Moha Career Paths - Software Engineering Roadmap
 
-![Moha Career Paths Demo](./assets/demo.gif)
+![Moha Career Paths Demo](https://iili.io/KWWEd3x.gif)
 
 ---
 
