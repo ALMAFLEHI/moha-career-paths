@@ -59,19 +59,25 @@ A comprehensive, bilingual software engineering career guide featuring **6 prove
 
 ### Installation
 Clone the repository:
+```bash
 git clone https://github.com/ALMAFLEHI/moha-career-paths.git
+```
 Navigate to project directory:
-
+```bash
 cd moha-career-paths
-
+```
 Open in browser:
+```bash
 # Open index.html in your preferred browser
 open index.html
 # or
 start index.html
-📁 Project Structure
+```
 
+---
 
+## 📁 Project Structure
+```text
 moha-career-paths/
 │
 ├── index.html          # Main HTML file
@@ -82,87 +88,106 @@ moha-career-paths/
 │   └── demo.gif        # Project demonstration (ScreenToGif recording)
 │
 └── README.md           # Project documentation
-🌍 Language Support
-English – Primary language with professional tech terminology
+```
 
-Arabic – Full RTL support with proper text alignment
+---
 
-🎯 Key Sections
-Hero Section – Compelling introduction with call-to-action
+## 🌍 Language Support
+- **English** – Primary language with professional tech terminology  
+- **Arabic** – Full RTL support with proper text alignment  
 
-Career Paths – Interactive navigation between 6 tech specializations
+---
 
-Learning Resources – Curated educational materials
+## 🎯 Key Sections
+- **Hero Section** – Compelling introduction with call-to-action  
+- **Career Paths** – Interactive navigation between 6 tech specializations  
+- **Learning Resources** – Curated educational materials  
+- **About Section** – Project overview and statistics  
+- **Footer** – Contact information and quick links  
 
-About Section – Project overview and statistics
+---
 
-Footer – Contact information and quick links
-
-🚀 Deployment
-This project is deployed on Netlify with continuous deployment from GitHub.
-
-Steps:
-Push changes to GitHub
-Netlify automatically builds and deploys
-Site updates live within minutes
-
-👨‍💻 Author
-Mohammed Almaflehi
-🎓 Software Engineering Student
-💻 Aspiring Full-Stack Developer
-🌍 Bilingual (Arabic/English)
-📍 Building innovative web solutions
-
-🔗 Connect with Me
-
-
-
-
-
-📊 Project Statistics
-🎯 6 Career Paths Covered
-
-🛠️ 50+ Technologies Featured
-
-📚 100+ Learning Resources
-
-🌍 2 Languages Supported
-
-📱 4 Responsive Breakpoints
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
+## 🚀 Deployment
+This project is deployed on **Netlify** with continuous deployment from GitHub.
 
 Steps:
+1. Push changes to GitHub  
+2. Netlify automatically builds and deploys  
+3. Site updates live within minutes  
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+---
 
-📄 License
-This project is licensed under the MIT License – see the LICENSE.md file for details.
+## 👨‍💻 Author
+**Mohammed Almaflehi**  
+🎓 Software Engineering Student  
+💻 Aspiring Full-Stack Developer  
+🌍 Bilingual (Arabic/English)  
+📍 Building innovative web solutions  
 
-🙏 Acknowledgments
-Icons by Font Awesome
-Fonts by Google Fonts
-Particles by Particle.js
-Inspiration from various tech career resources
+---
+
+## 🔗 Connect with Me
+[![Portfolio](https://img.shields.io/badge/Portfolio-moha--roadmap.netlify.app-blue)](https://moha-roadmap.netlify.app/)  
+[![GitHub](https://img.shields.io/badge/GitHub-ALMAFLEHI-black)](https://github.com/ALMAFLEHI)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed_Almaflehi-blue)](https://www.linkedin.com)  
+[![Instagram](https://img.shields.io/badge/Instagram-@almaflehi.dev-pink)](https://instagram.com/almaflehi.dev)  
+
+---
+
+## 📊 Project Statistics
+- 🎯 **6 Career Paths Covered**  
+- 🛠️ **50+ Technologies Featured**  
+- 📚 **100+ Learning Resources**  
+- 🌍 **2 Languages Supported**  
+- 📱 **4 Responsive Breakpoints**  
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!  
+
+Steps:
+1. Fork the Project  
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)  
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)  
+4. Push to the Branch (`git push origin feature/AmazingFeature`)  
+5. Open a Pull Request  
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License** – see the `LICENSE.md` file for details.
+
+---
+
+## 🙏 Acknowledgments
+- Icons by [Font Awesome](https://fontawesome.com/)  
+- Fonts by [Google Fonts](https://fonts.google.com/)  
+- Particles by [Particle.js](https://vincentgarreau.com/particles.js/)  
+- Inspiration from various tech career resources  
+
+---
 
 <div align="center">
-⭐️ Don’t forget to give this project a star if you found it helpful!
-Built with Mohammed Almaflehi
 
-Live Demo • Report Bug • Request Feature
+⭐️ Don’t forget to give this project a star if you found it helpful!  
+Built with ❤️ by **Mohammed Almaflehi**  
+
+[Live Demo](https://moha-roadmap.netlify.app/) • [Report Bug](https://github.com/ALMAFLEHI/moha-career-paths/issues) • [Request Feature](https://github.com/ALMAFLEHI/moha-career-paths/issues)
 
 </div>
-📸 How to Add Your GIF
-Record your demo using ScreenToGif
 
-Save the GIF in the assets folder as demo.gif
+---
 
-Replace the placeholder in the README with:
-
+## 📸 How to Add Your GIF
+1. Record your demo using **ScreenToGif**  
+2. Save the GIF in the `assets` folder as `demo.gif`  
+3. Replace the placeholder in the README with:  
+```markdown
 ![Moha Career Paths Demo](./assets/demo.gif)
-Push changes to update the README
+```
+4. Push changes to update the README  
+
+---
+
+_Last updated: October 2025_
