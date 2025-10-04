@@ -59,24 +59,19 @@ A comprehensive, bilingual software engineering career guide featuring **6 prove
 
 ### Installation
 Clone the repository:
-```bash
 git clone https://github.com/ALMAFLEHI/moha-career-paths.git
 Navigate to project directory:
 
-bash
-Copy code
 cd moha-career-paths
-Open in browser:
 
-bash
-Copy code
+Open in browser:
 # Open index.html in your preferred browser
 open index.html
 # or
 start index.html
 📁 Project Structure
-text
-Copy code
+
+
 moha-career-paths/
 │
 ├── index.html          # Main HTML file
@@ -84,7 +79,6 @@ moha-career-paths/
 ├── script.js           # JavaScript functionality
 │
 ├── assets/             # Additional assets
-│   ├── images/         # Screenshots and graphics
 │   └── demo.gif        # Project demonstration (ScreenToGif recording)
 │
 └── README.md           # Project documentation
@@ -108,11 +102,8 @@ Footer – Contact information and quick links
 This project is deployed on Netlify with continuous deployment from GitHub.
 
 Steps:
-
 Push changes to GitHub
-
 Netlify automatically builds and deploys
-
 Site updates live within minutes
 
 👨‍💻 Author
@@ -145,13 +136,9 @@ Contributions, issues, and feature requests are welcome!
 Steps:
 
 Fork the Project
-
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
 Commit your Changes (git commit -m 'Add some AmazingFeature')
-
 Push to the Branch (git push origin feature/AmazingFeature)
-
 Open a Pull Request
 
 📄 License
@@ -159,11 +146,8 @@ This project is licensed under the MIT License – see the LICENSE.md file for d
 
 🙏 Acknowledgments
 Icons by Font Awesome
-
 Fonts by Google Fonts
-
 Particles by Particle.js
-
 Inspiration from various tech career resources
 
 <div align="center">
@@ -180,7 +164,5 @@ Save the GIF in the assets folder as demo.gif
 
 Replace the placeholder in the README with:
 
-markdown
-Copy code
 ![Moha Career Paths Demo](./assets/demo.gif)
 Push changes to update the README
