@@ -9,7 +9,7 @@ const translations = {
         "nav.contact": "Contact",
         
         // Hero Section
-        "hero.title": "Software Engineering Roadmap",
+        "hero.title": "Developer Roadmap",
         "hero.subtitle": "6 Proven Paths to Launch Your Career with Complete Resources",
         "hero.button": "Explore Paths",
         
@@ -131,7 +131,7 @@ const translations = {
         "nav.contact": "اتصل بنا",
         
         // Hero Section
-        "hero.title": "خارطة طريق هندسة البرمجيات",
+        "hero.title": "خارطة طريق تعلم البرمجة",
         "hero.subtitle": "6 مسارات مثبتة لبدء حياتك المهنية مع موارد كاملة",
         "hero.button": "استكشف المسارات",
         
