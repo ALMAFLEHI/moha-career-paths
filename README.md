@@ -177,17 +177,5 @@ Built with ❤️ by **Mohammed Almaflehi**
 
 </div>
 
----
-
-## 📸 How to Add Your GIF
-1. Record your demo using **ScreenToGif**  
-2. Save the GIF in the `assets` folder as `demo.gif`  
-3. Replace the placeholder in the README with:  
-```markdown
-![Moha Career Paths Demo](./assets/demo.gif)
-```
-4. Push changes to update the README  
-
----
 
 _Last updated: October 2025_
